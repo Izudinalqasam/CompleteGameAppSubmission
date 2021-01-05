@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (5.4.0)
+  - Core (1.0.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - netfox (1.19.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - Swinject (2.6.0)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Core
+  - netfox
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SDWebImage (~> 5.0)
+  - Swinject (= 2.6.0)
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/Izudinalqasam/Game-App-CorePodSpec.git:
+    - Core
+  trunk:
+    - Alamofire
+    - netfox
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Core: 4af2d465e6607eb8537ee25de053b54253267c3d
+  netfox: efeec1d23406df6cd605212f09a40957bb5654eb
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: cc31b8ef9dd90078b4ed3449c257477e7745fd32
+
+COCOAPODS: 1.10.0

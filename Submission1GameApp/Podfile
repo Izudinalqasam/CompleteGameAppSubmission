@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.5.0'
+
+source 'https://github.com/Izudinalqasam/Game-App-CorePodSpec'
+
+use_frameworks!
+
+workspace 'Modularization'
+
+target 'Submission1GameApp' do
+  # Pods for SearchBarExample
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'netfox'
+  pod 'Swinject', '2.6.0' 
+  pod 'SwinjectStoryboard' 
+  pod 'Alamofire', '~> 5.2'
+end
+
+target "Games" do
+project '../Games/Games'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'Core'
+end
+
+target "Profile" do
+project '../Profile/Profile'
+  pod 'Core'
+end
+
+target "Favorite" do
+project '../Favorite/Favorite'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'Core'
+end
