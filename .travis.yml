@@ -1,5 +1,5 @@
 language: swift
 osx_image: xcode12 
-xcode_project: Submission1GameApp.xcodeproj
+xcode_project: Submission1GameApp/Submission1GameApp.xcodeproj
 xcode_scheme: Submission1GameApp
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
