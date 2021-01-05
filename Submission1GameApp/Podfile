@@ -9,6 +9,7 @@ workspace 'Modularization'
 
 target 'Submission1GameApp' do
   # Pods for SearchBarExample
+  pod 'Core'
   pod 'RxSwift', '~> 4.0'
   pod 'RxCocoa', '~> 4.0'
   pod 'SDWebImage', '~> 5.0'
