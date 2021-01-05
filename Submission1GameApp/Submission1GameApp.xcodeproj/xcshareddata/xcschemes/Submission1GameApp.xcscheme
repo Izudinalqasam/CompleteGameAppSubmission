@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "26EEB61125A4B51A0072C3BC"
+               BuildableName = "Submission1GameAppTests.xctest"
+               BlueprintName = "Submission1GameAppTests"
+               ReferencedContainer = "container:Submission1GameApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "26EEB62025A4B52E0072C3BC"
+               BuildableName = "Submission1GameAppUITests.xctest"
+               BlueprintName = "Submission1GameAppUITests"
+               ReferencedContainer = "container:Submission1GameApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
