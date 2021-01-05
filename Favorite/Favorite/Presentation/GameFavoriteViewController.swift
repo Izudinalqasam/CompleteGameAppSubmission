@@ -31,7 +31,7 @@ public class GameFavoriteViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.listGameFavorite.register(
             UINib(nibName: gameTableXib,
-                  bundle: Bundle(identifier: "com.izudin.swift.Core")
+                  bundle: Bundle(for: GameTableViewCell.self)
             ), forCellReuseIdentifier: gameTableCell)
         
         noDataLabel.text = "No Data"

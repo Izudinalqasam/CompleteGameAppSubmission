@@ -56,7 +56,7 @@ public class HomeViewController: UIViewController {
         
         listGame.delegate = self
         listGame.dataSource = self
-        listGame.register(UINib(nibName: gameTableXib, bundle: Bundle(identifier: "com.izudin.swift.Core")), forCellReuseIdentifier: gameTableCell)
+        listGame.register(UINib(nibName: gameTableXib, bundle: Bundle(for: GameTableViewCell.self)), forCellReuseIdentifier: gameTableCell)
         listGame.tableFooterView = UIView()
         searchGameBar.placeholder = "Search a game here"
         
